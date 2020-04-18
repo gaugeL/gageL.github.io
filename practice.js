@@ -20,7 +20,6 @@ function selectRock() {
     else if (botChoice == choices[1]) {
         bot++;
         write('You lost deryl');
-        score('Your score' player)
     }
     else {
         player++;
@@ -49,7 +48,7 @@ function selectScissors() {
     else if (botChoice == 'Rock') {
         write('You lost dummy');
     }
-    else write('You won')
+    else write('You won');
 }
 
 
